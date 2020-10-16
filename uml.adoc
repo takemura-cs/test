@@ -1,0 +1,11 @@
+* UML in Asciidoctor
+
+[plantuml,sequence-sample,png]
+----
+@startuml
+ClassA -> ClassB: Call
+ClassB -> ClassC: Call
+ClassC --> ClassB: Response
+ClassB --> ClassA: Response
+@enduml
+----
